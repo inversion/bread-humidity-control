@@ -1,0 +1,5 @@
+*.js
+*.js.map
+*.tsbuildinfo
+node_modules
+.env

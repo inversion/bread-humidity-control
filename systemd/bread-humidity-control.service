@@ -1,0 +1,12 @@
+[Unit]
+Description=RPi AV Automation
+
+[Service]
+Type=simple
+User=pi
+Environment=DEBUG=bread-humidity-control:*
+EnvironmentFile=/home/pi/bread-humidity-control/.env
+ExecStart=node /home/pi/bread-humidity-control/src/main
+
+[Install]
+WantedBy=multi-user.target

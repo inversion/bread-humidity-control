@@ -1,0 +1,12 @@
+{
+	"include": ["src/*", "src/@types/*/*.d.ts"],
+	"compilerOptions": {
+		"incremental": true,
+		"target": "ESNext",
+		"module": "commonjs",
+		"strict": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"sourceMap": true
+	}
+}
